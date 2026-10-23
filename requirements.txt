@@ -1,0 +1,7 @@
+Django==3.2.15
+djangorestframework
+djongo
+pytz
+six
+pymongo==3.12.3
+sqlparse==0.2.4
