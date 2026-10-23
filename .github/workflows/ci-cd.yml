@@ -32,7 +32,7 @@ jobs:
 
     - name: Run Django System Checks & Migrations
       env:
-        MONGO_URI: mongodb://localhost:27017/
+        MONGO_URI: "mongodb://localhost:27017/"
       run: |
         python manage.py check
         python manage.py makemigrations
